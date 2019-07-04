@@ -1,8 +1,13 @@
 package org.fasttrackit;
 
 public class Division {
-    public double Div(double a, double b){
+    public double div(double a, double b){
         double div = a/b;
-        return (div);
+        return div;
+    }
+    public double div(int a, int b){
+        return div((double)a,(double)b);
+
     }
 }
+

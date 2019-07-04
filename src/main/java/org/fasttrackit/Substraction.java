@@ -1,8 +1,10 @@
 package org.fasttrackit;
 
 public class Substraction {
-    public double substractionOfTwoNumbers(double a, double b){
-double sub = a - b;
-return (sub);
+    public double sub(double a, double b){
+    return a-b;
+    }
+    public double sub(int a, int b){
+        return sub((double)a,(double)b);
     }
 }
